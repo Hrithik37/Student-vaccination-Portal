@@ -1,0 +1,20 @@
+/* DriveForm page */
+@import '../App.css';
+
+.form-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+.form-box h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-actions .button {
+  padding: 10px 16px;
+}

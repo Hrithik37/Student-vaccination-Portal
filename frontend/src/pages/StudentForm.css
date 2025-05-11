@@ -1,0 +1,38 @@
+/* StudentForm page */
+@import '../App.css';
+
+.form-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+.form-box h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-actions .button {
+  padding: 10px 16px;
+}
+
+/* Vaccination sub-section */
+.vacc-box {
+    background: var(--bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .vacc-box h2 {
+    margin-bottom: 12px;
+  }
+  
+  .error {
+    color: #d9534f;
+    margin-bottom: 10px;
+  }
+  
